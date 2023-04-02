@@ -1,0 +1,31 @@
+body {
+    background: #C4DEC1;
+  }
+
+  ul {
+    
+    width:100%; 
+    float:left; 
+    text-align:center; 
+}
+
+li {
+    padding-right:100px;
+    display: inline-block;
+    list-style:none;
+}
+
+  
+  li .mymenu{
+     font-family: 'open_sansbold';
+     font-size:1em;
+     text-decoration: none;
+     color:#0e0302;
+     -webkit-border-box: 0 1px 0 0 #4c4c4c;
+     border-bottom: 4px solid transparent;
+     -webkit-transition: border-bottom .3s linear;
+  }
+
+  li .mymenu:hover{
+      border-bottom:4px solid #446662;
+  }
